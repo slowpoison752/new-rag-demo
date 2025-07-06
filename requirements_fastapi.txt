@@ -1,0 +1,21 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Core dependencies (without MCP)
+openai==1.75.0
+python-dotenv
+ipykernel
+httpx
+uv
+pypdf
+langchain
+langchain-community
+langchain-ollama
+chromadb
+pytest
+boto3
+
+# Additional dependencies
+pydantic>=2.0.0 
